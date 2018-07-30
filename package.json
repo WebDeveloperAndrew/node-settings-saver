@@ -1,0 +1,23 @@
+{
+  "name": "node-settings-saver",
+  "version": "1.0.0",
+  "description": "A simple node server that saves settings for a control panel",
+  "main": "index.js",
+  "scripts": {
+    "run": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebDeveloperAndrew/node-settings-saver.git"
+  },
+  "author": "Andrew Irwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebDeveloperAndrew/node-settings-saver/issues"
+  },
+  "homepage": "https://github.com/WebDeveloperAndrew/node-settings-saver#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
