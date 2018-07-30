@@ -5,15 +5,6 @@ This Node app is meant to be run with a website for saving unsecure settings whi
 ## Primary Feature
 
 This app will accept a JSON request sent on the route /save and create or overwrite the variables.json file found in data/variables.json.
- 
-### Tech
-
-Node Settings Saver uses these packages and technologies to work for you:
-
-* [npm] - A package manager for JavaScript
-* [node.js] - A JavaScript runtime built on Chrome's V8 JavaScript engine
-* [Express] - A minimal and flexible Node.js web application framework
-* [body-parser] - A Node.js body parsing middleware
 
 ### Installing
 
@@ -50,6 +41,16 @@ $ docker run nodesettingssaver
 ### Todos
 
  - Opening up the save path to an enviornment variable for future uses
+
+ 
+### Tech
+
+Node Settings Saver uses these packages and technologies to work for you:
+
+* [npm] - A package manager for JavaScript
+* [node.js] - A JavaScript runtime built on Chrome's V8 JavaScript engine
+* [Express] - A minimal and flexible Node.js web application framework
+* [body-parser] - A Node.js body parsing middleware
 
 License
 ----
